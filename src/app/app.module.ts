@@ -8,9 +8,6 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 // APP Routing Module
 import { AppRoutingModule } from './app-routing.module';
 
-// Modules Imports
-import { SharedModule } from './shared';
-
 // Components Imports
 import { AppComponent } from './app.component';
 
