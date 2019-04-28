@@ -8,6 +8,7 @@ import { DashboardModule } from '../modules/dashboard';
 // Components Imports
 import { BootstrapComponent } from './bootstrap.component';
 import { ProfileModule } from '../modules/profile';
+import { CompanyModule } from '../modules/company';
 
 // Routes
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
     children: [
       { path: 'dashboard', loadChildren: () => DashboardModule },
       { path: 'profile', loadChildren: () => ProfileModule },
+      { path: 'company', loadChildren: () => CompanyModule },
     ]
   },
 ];

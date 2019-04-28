@@ -9,7 +9,7 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 import { SharedModule } from '../../shared';
 
 // Components
-import { DashboardCoreComponent } from './pages/dashboard-core/dashboard-core.component';
+import { DashboardCoreComponent } from './pages';
 
 @NgModule({
   declarations: [DashboardCoreComponent],

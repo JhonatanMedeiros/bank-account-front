@@ -3,9 +3,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 // Components Imports
-import { AuthCoreComponent } from './pages/auth-core/auth-core.component';
-import { LoginComponent } from './pages/login/login.component';
-import { SignUpComponent } from './pages/sign-up/sign-up.component';
+import { AuthCoreComponent, LoginComponent, SignUpComponent } from './pages';
 
 const routes: Routes = [
   {

@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { Route, RouterModule } from '@angular/router';
 
 // Components Imports
-import { DashboardCoreComponent } from './pages/dashboard-core/dashboard-core.component';
+import { DashboardCoreComponent } from './pages';
 
 const Routes: Route[] = [
   {

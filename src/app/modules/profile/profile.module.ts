@@ -9,7 +9,7 @@ import { ProfileRoutingModule } from './profile-routing.module';
 import { SharedModule } from '../../shared';
 
 // Component Imports
-import { ProfileCoreComponent } from './pages/profile-core/profile-core.component';
+import { ProfileCoreComponent } from './pages';
 
 @NgModule({
   declarations: [ProfileCoreComponent],

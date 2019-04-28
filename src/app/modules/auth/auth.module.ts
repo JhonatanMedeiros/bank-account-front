@@ -9,9 +9,7 @@ import { AuthRoutingModule } from './auth-routing.module';
 import { SharedModule } from '../../shared';
 
 // Components
-import { LoginComponent } from './pages/login/login.component';
-import { SignUpComponent } from './pages/sign-up/sign-up.component';
-import { AuthCoreComponent } from './pages/auth-core/auth-core.component';
+import { AuthCoreComponent, SignUpComponent, LoginComponent } from './pages';
 
 @NgModule({
   declarations: [LoginComponent, SignUpComponent, AuthCoreComponent],
@@ -21,4 +19,5 @@ import { AuthCoreComponent } from './pages/auth-core/auth-core.component';
     SharedModule
   ]
 })
-export class AuthModule { }
+export class AuthModule {
+}

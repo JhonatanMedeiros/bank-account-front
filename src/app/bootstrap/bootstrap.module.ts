@@ -10,7 +10,7 @@ import { BootstrapRoutingModule } from './bootstrap-routing.module';
 
 // Components Imports
 import { BootstrapComponent } from './bootstrap.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { NavbarComponent } from './components';
 import { SharedModule } from '../shared';
 
 const MD_BOOTSTRAP: any[] = [
