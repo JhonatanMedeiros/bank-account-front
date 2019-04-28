@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'bank-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `<router-outlet></router-outlet>`
 })
 export class AppComponent {
-  title = 'bank-account-front';
 }
