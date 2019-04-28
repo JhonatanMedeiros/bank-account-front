@@ -8,9 +8,9 @@ import { AuthModule } from './modules/auth';
 
 // Routes
 const routes: Routes = [
+  { path: '', loadChildren: () => BootstrapModule },
   { path: '**', redirectTo: 'auth/login', pathMatch: 'full' },
-  { path: 'auth', loadChildren: () => AuthModule },
-  { path: '', loadChildren: () => BootstrapModule }
+  { path: 'auth', loadChildren: () => AuthModule }
 ];
 
 @NgModule({
