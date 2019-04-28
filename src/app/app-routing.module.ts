@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 // Modules Imports
-import { AuthModule } from './modules/auth/auth.module';
+import { BootstrapModule } from './bootstrap';
+import { AuthModule } from './modules/auth';
 
 // Routes
 const routes: Routes = [
+  { path: '**', redirectTo: 'auth/login', pathMatch: 'full' },
   { path: 'auth', loadChildren: () => AuthModule },
-  { path: '**', redirectTo: 'auth/login', pathMatch: 'full' }
+  { path: '', loadChildren: () => BootstrapModule }
 ];
 
 @NgModule({
