@@ -1,0 +1,73 @@
+<div class="row h-100 mt-5 justify-content-center align-items-center">
+
+  <div class="col-lg-4 col-sm-8 animated fadeIn">
+
+    <!-- Material form login -->
+    <mdb-card>
+
+      <mdb-card-header class="info-color white-text text-center py-4">
+        <h5>
+          <strong>Register</strong>
+        </h5>
+      </mdb-card-header>
+
+
+      <!--Card content-->
+      <mdb-card-body class="px-lg-5 pt-0">
+
+        <!-- Form -->
+        <form class="text-center" style="color: #757575;">
+
+          <!-- Email -->
+          <div class="md-form">
+            <input type="email" id="registerFormEmail" class="form-control" mdbInput>
+            <label for="registerFormEmail">E-mail</label>
+          </div>
+
+          <!-- Password -->
+          <div class="md-form">
+            <input type="password" id="registerFormPassword" class="form-control" mdbInput>
+            <label for="registerFormPassword">Password</label>
+          </div>
+
+          <!-- Repeat Password -->
+          <div class="md-form">
+            <input type="password" id="registerFormRepeatPassword" class="form-control" mdbInput>
+            <label for="registerFormRepeatPassword">Repeat Password</label>
+          </div>
+
+          <!-- Sign in button -->
+          <button mdbBtn color="info" outline="true" rounded="true" block="true" class="my-4 waves-effect z-depth-0"
+                  mdbWavesEffect type="submit">Register</button>
+
+          <!-- Register -->
+          <p>Have a account ?
+            <a routerLink="../login">Login</a>
+          </p>
+
+          <!-- Social login -->
+          <p>or register in with:</p>
+          <a type="button" class="btn-floating btn-fb btn-sm">
+            <mdb-icon fab icon="facebook"></mdb-icon>
+          </a>
+          <a type="button" class="btn-floating btn-tw btn-sm">
+            <mdb-icon fab icon="twitter"></mdb-icon>
+          </a>
+          <a type="button" class="btn-floating btn-li btn-sm">
+            <mdb-icon fab icon="linkedin"></mdb-icon>
+          </a>
+          <a type="button" class="btn-floating btn-git btn-sm">
+            <mdb-icon fab icon="heart"></mdb-icon>
+          </a>
+
+        </form>
+        <!-- Form -->
+
+      </mdb-card-body>
+
+    </mdb-card>
+    <!-- Material form login -->
+
+  </div>
+
+</div>
