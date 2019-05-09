@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/JhonatanMedeiros/bank-account-front.svg?branch=travis-ci)](https://travis-ci.com/JhonatanMedeiros/bank-account-front)
+[![Build Status](https://travis-ci.com/JhonatanMedeiros/bank-account-front.svg?branch=master)](https://travis-ci.com/JhonatanMedeiros/bank-account-front)
 
 # Bank Account Front
 
