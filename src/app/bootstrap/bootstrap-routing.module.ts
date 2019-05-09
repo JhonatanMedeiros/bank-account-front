@@ -18,8 +18,9 @@ const routes: Routes = [
       { path: 'dashboard', loadChildren: () => DashboardModule },
       { path: 'profile', loadChildren: () => ProfileModule },
       { path: 'company', loadChildren: () => CompanyModule },
+      { path: '**', redirectTo: '/dashboard', pathMatch: 'full' },
     ]
-  },
+  }
 ];
 
 @NgModule({
