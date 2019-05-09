@@ -1,16 +1,16 @@
 import { AppPage } from './app.po';
 import { browser, logging } from 'protractor';
 
-describe('workspace-project App', () => {
+describe('Dashboard Module', () => {
   let page: AppPage;
 
   beforeEach(() => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display dashboard core message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to bank-account-front!');
+    expect(page.getTitleText()).toEqual('dashboard-core works!');
   });
 
   afterEach(async () => {
