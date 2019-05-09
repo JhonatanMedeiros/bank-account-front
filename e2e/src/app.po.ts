@@ -6,6 +6,6 @@ export class AppPage {
   }
 
   getTitleText() {
-    return element(by.css('bank-root h1')).getText() as Promise<string>;
+    return element(by.tagName('p')).getText() as Promise<string>;
   }
 }
