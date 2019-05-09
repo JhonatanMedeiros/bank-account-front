@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/JhonatanMedeiros/bank-account-front.svg?branch=travis-ci)](https://travis-ci.com/JhonatanMedeiros/bank-account-front)
+
 # Bank Account Front
 
 > This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
