@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.com/JhonatanMedeiros/bank-account-front.svg?branch=master)](https://travis-ci.com/JhonatanMedeiros/bank-account-front) [![Greenkeeper badge](https://badges.greenkeeper.io/JhonatanMedeiros/bank-account-front.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.com/JhonatanMedeiros/bank-account-front.svg?branch=master)](https://travis-ci.com/JhonatanMedeiros/bank-account-front)
+[![Greenkeeper badge](https://badges.greenkeeper.io/JhonatanMedeiros/bank-account-front.svg)](https://greenkeeper.io/)
 
 # Bank Account Front
 
