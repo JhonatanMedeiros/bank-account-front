@@ -647,10 +647,10 @@ amdefine@>=0.0.4:
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
-angular-bootstrap-md@^7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/angular-bootstrap-md/-/angular-bootstrap-md-7.5.0.tgz#d4856d8984573c6ee6f4635b92cf8c64a670863d"
-  integrity sha512-z/NEFxadIPbCOaURKajt95yLLJo3FCDEdh89c+v74bAnLd/mKsZIXW0eZISgUDWkzvCa5ZwEIJvVS2MN304/fw==
+angular-bootstrap-md@^7.5.2:
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/angular-bootstrap-md/-/angular-bootstrap-md-7.5.2.tgz#daf178aee44f88973c64dbd4db597e8f3e8ab3ab"
+  integrity sha512-u5MCmGPdwOWH93Ni5Van/2tPxNecvRzdLNPLxbvciHnNXSWN27HAU8E/FtgIJcutg/qqJa86YIqjUTrnd0t75g==
   dependencies:
     tslib "^1.9.0"
 
@@ -1775,10 +1775,15 @@ copy-webpack-plugin@4.6.0:
     p-limit "^1.0.0"
     serialize-javascript "^1.4.0"
 
-core-js@2, core-js@^2.2.0, core-js@^2.4.0:
+core-js@^2.2.0, core-js@^2.4.0:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
   integrity sha512-klh/kDpwX8hryYL14M9w/xei6vrv6sE8gTHDG7/T/+SEovB/G4ejwcfE/CBzO6Edsu+OETZMZ3wcX/EjUkrl5A==
+
+core-js@^3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.1.1.tgz#502ba6e7c15300de20a372b390f9fc9039db76f2"
+  integrity sha512-OddJJmAMN6czmPEtp1ScHFWq4RXzH1iWJFGL8CZ6UcopeBzCMjo4Slv0UoLW2hhny1/wsDowm6xCmBCWQ1azkA==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
