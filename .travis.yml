@@ -14,11 +14,20 @@ cache:
 addons:
   chrome: stable
 
+env:
+  - CI=true
+
 script:
   - npm run lint
   - npm run e2e
   - npm run build:prod
 
-after_success:
-  - chmod +x ./publish.sh
-  - ./publish.sh
+before_deploy:
+  - npm install netlify-cli -g
+
+deploy:
+  provider: script
+  script: netlify deploy -s $NETLIFY_SITE_ID --auth $NETLIFY_PUBLISH_KEY -p --dir ./dist/bank-account-front
+  skip_cleanup: true
+  on:
+    branch: master
