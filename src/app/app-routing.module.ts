@@ -2,14 +2,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-// Modules Imports
-import { BootstrapModule } from './bootstrap';
-import { AuthModule } from './modules/auth';
-
 // Routes
 const routes: Routes = [
-  { path: '', loadChildren: () => BootstrapModule },
-  { path: 'auth', loadChildren: () => AuthModule }
+  { path: 'auth', loadChildren: './modules/auth/auth.module#AuthModule'},
+  { path: '', loadChildren: './bootstrap/bootstrap.module#BootstrapModule' }
 ];
 
 @NgModule({
