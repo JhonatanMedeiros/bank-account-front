@@ -10,7 +10,8 @@ const routes: Routes = [
     path: '', component: AuthCoreComponent,
     children: [
       { path: 'login', component: LoginComponent },
-      { path: 'register', component: SignUpComponent }
+      { path: 'register', component: SignUpComponent },
+      { path: '**', redirectTo: 'login', pathMatch: 'full' },
     ]
   }
 ];
