@@ -12,26 +12,38 @@ const CHROME_OPTIONS = {
 };
 
 exports.config = {
-  allScriptsTimeout: 11000,
+  allScriptsTimeout: 120000,
+  getPageTimeout: 120000,
   useAllAngular2AppRoots: true,
   restartBrowserBetweenTests: true,
   specs: [
     './src/**/*.e2e-spec.ts'
   ],
-  capabilities: {
-    'browserName': 'chrome',
-    chromeOptions: CHROME_OPTIONS,
-    loggingPrefs: {
-      performance: 'ALL',
-      browser: 'ALL',
+  multiCapabilities: [
+    {
+      'browserName': 'chrome',
+      'name': 'Protractor suite tests',
+      chromeOptions: CHROME_OPTIONS,
+      loggingPrefs: {
+        performance: 'ALL',
+        browser: 'ALL',
+      },
+    },
+    {
+      'browserName': 'firefox',
+      'name': 'Protractor suite tests',
+      'moz:firefoxOptions': {
+        'args': ['--safe-mode', '--headless']
+      }
     }
-  },
+  ],
   directConnect: true,
   baseUrl: 'http://localhost:4200/',
   framework: 'jasmine',
   jasmineNodeOpts: {
+    showTiming: true,
     showColors: true,
-    defaultTimeoutInterval: 60000,
+    defaultTimeoutInterval: 120000,
     print: function(msg) { console.log(msg); },
   },
   onPrepare() {
