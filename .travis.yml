@@ -13,14 +13,13 @@ cache:
 
 addons:
   chrome: stable
+  firefox: latest
 
 env:
   - CI=true
+  - MOZ_HEADLESS=1
 
-script:
-  - npm run lint
-  - npm run e2e
-  - npm run build:prod
+script: npm run lint && npm run e2e && npm run build:prod
 
 before_deploy:
   - npm install netlify-cli -g
