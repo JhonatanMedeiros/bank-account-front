@@ -19,7 +19,7 @@
     "build:prod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "webdriver-manager update && ng e2e"
+    "e2e": "webdriver-manager update --gecko=false && ng e2e"
   },
   "private": true,
   "dependencies": {
