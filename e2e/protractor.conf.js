@@ -29,13 +29,13 @@ exports.config = {
         browser: 'ALL',
       },
     },
-    {
-      'browserName': 'firefox',
-      'name': 'Protractor suite tests',
-      'moz:firefoxOptions': {
-        'args': ['--safe-mode', '--headless']
-      }
-    }
+    // {
+    //   'browserName': 'firefox',
+    //   'name': 'Protractor suite tests',
+    //   'moz:firefoxOptions': {
+    //     'args': ['--safe-mode', '--headless']
+    //   }
+    // }
   ],
   directConnect: true,
   baseUrl: 'http://localhost:4200/',
