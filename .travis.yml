@@ -13,11 +13,9 @@ cache:
 
 addons:
   chrome: stable
-  firefox: latest
 
 env:
   - CI=true
-  - MOZ_HEADLESS=1
 
 script: npm run lint && npm run e2e && npm run build:prod
 
@@ -26,7 +24,7 @@ before_deploy:
 
 deploy:
   provider: script
-  script: netlify deploy -s $NETLIFY_SITE_ID -a $NETLIFY_PUBLISH_KEY -prod --dir=dist/bank-account-front --message "Deploy from Travis CI"
+  script: netlify deploy -s $NETLIFY_SITE_ID -a $NETLIFY_PUBLISH_KEY --prod --dir=dist/bank-account-front --message "Deploy from Travis CI"
   skip_cleanup: true
   on:
     branch: master
