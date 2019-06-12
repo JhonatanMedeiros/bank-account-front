@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 mx-auto">
+      <div class="md-form">
+        <input type="text" [(ngModel)]="searchText" class="form-control" id="search" mdbInput>
+        <label for="search">Search</label>
+      </div>
+    </div>
+  </div>
+  <table mdbTable class="z-depth-1">
+    <thead>
+    <tr>
+      <th *ngFor="let head of headElements; let i = index" scope="col">{{head}}</th>
+<!--      <th *ngFor="let head of headElements; let i = index" aria-controls="tableSortExample" scope="col" [mdbTableSort]="elements" [sortBy]="headElements[i]">-->
+<!--        {{head | titlecase}}-->
+<!--        <mdb-icon fas icon="sort"></mdb-icon>-->
+<!--      </th>-->
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let company of companies; let i = index">
+      <th scope="row">{{company.id}}</th>
+      <td class="red-text">{{company.name}}</td>
+      <td>{{company.cnpj}}</td>
+      <td>{{company.proprietary}}</td>
+      <td>
+        <span class="table-remove">
+          <button type="button" mdbBtn color="danger" rounded="true" size="sm" class="my-0" (click)="removeCompany(company.id)">Remover</button>
+        </span>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
