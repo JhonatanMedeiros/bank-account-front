@@ -9,7 +9,7 @@ import {
   ButtonsModule,
   InputsModule,
   IconsModule,
-  CardsFreeModule,
+  CardsModule,
   DropdownModule
 } from 'angular-bootstrap-md';
 
@@ -19,7 +19,7 @@ const MD_BOOTSTRAP = [
   ButtonsModule,
   InputsModule,
   IconsModule,
-  CardsFreeModule,
+  CardsModule,
   DropdownModule
 ];
 

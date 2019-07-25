@@ -13,7 +13,7 @@ import * as faker from 'faker';
 })
 export class CompanyListComponent implements OnInit {
 
-  @ViewChild(MdbTableDirective) mdbTable: MdbTableDirective;
+  @ViewChild(MdbTableDirective, { static: true }) mdbTable: MdbTableDirective;
   companies: any = [];
   headElements = ['ID', 'Empresa', 'CNPJ', 'Proprietário', 'Ações'];
 
