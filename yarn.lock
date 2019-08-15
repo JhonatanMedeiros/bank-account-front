@@ -149,12 +149,12 @@
     "@angular-devkit/core" "8.2.0"
     rxjs "6.4.0"
 
-"@angular-devkit/schematics@^8.2.1":
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.2.1.tgz#7d8ebbb11024c4c1d25e80483929c31bb8c38f1b"
-  integrity sha512-tyXp1Fl0ZjLjjbnP+4lf3xW1KvBwSjZFGVTEyfTgXXo1zJhZsL+xE5Th588R6t0tdhNkdrCMi0CVzf7PBKQyHg==
+"@angular-devkit/schematics@^8.2.2":
+  version "8.2.2"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.2.2.tgz#45699cf3df6b3330f22e657390fe3a0e5ac1f9dc"
+  integrity sha512-wAbP+IriWgTSLR4prezuFlLbxMZMGXiN0FNH2i/v8MfxNXCBiEvD4YtD/8s8YRsZs+IW7sp3bErSD/EIlS4DyQ==
   dependencies:
-    "@angular-devkit/core" "8.2.1"
+    "@angular-devkit/core" "8.2.2"
     rxjs "6.4.0"
 
 "@angular/animations@~8.1.2":
