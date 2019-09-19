@@ -12,6 +12,7 @@
   "repository": "https://github.com/JhonatanMedeiros/bank-account-front",
   "license": "MIT",
   "scripts": {
+    "postinstall": "cd ./node_modules/protractor && npm i webdriver-manager@latest && cd ../.. && ./node_modules/.bin/webdriver-manager update",
     "ng": "ng",
     "start": "ng serve",
     "build": "$npm_execpath run build:prod",
