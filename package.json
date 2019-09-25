@@ -46,7 +46,7 @@
     "@angular/cli": "^8.3.2",
     "@angular/compiler-cli": "^8.1.2",
     "@angular/language-service": "^8.2.4",
-    "@fortawesome/fontawesome-free": "^5.10.2",
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "@types/jasmine": "~3.4.0",
     "@types/jasminewd2": "~2.0.6",
     "@types/node": "~12.7.7",
