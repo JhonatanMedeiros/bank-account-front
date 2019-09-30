@@ -1254,10 +1254,10 @@ amdefine@>=0.0.4:
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
-angular-bootstrap-md@^8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/angular-bootstrap-md/-/angular-bootstrap-md-8.2.0.tgz#959715d3ae8d92d13ecb0027209bc4f92f07318b"
-  integrity sha512-FQAWvsnACzIoZNcxFstBL7Bn0VqNTUDZslRA+urFHX8zrSv/qrLmmSSrl4XhJQUffaMIYHOczJdqDjSocY8NLQ==
+angular-bootstrap-md@^8.3.1:
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/angular-bootstrap-md/-/angular-bootstrap-md-8.3.1.tgz#2f20f3daeeda569ce2cdee1b22107f896f4dfd2a"
+  integrity sha512-wT0oKrP+5vg9g8qW3sLA5gnWkUN4OZ1rd8cGECAzwICAnvtlC+5KtAmPZ3twTUXJFmv0Q8qSWITWz8Tbm9BUFw==
   dependencies:
     tslib "^1.9.0"
 
