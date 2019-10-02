@@ -49,7 +49,7 @@
     "@fortawesome/fontawesome-free": "^5.11.2",
     "@types/jasmine": "~3.4.0",
     "@types/jasminewd2": "~2.0.7",
-    "@types/node": "~12.7.8",
+    "@types/node": "~12.7.9",
     "codelyzer": "~5.1.2",
     "faker": "^4.1.0",
     "jasmine-core": "~3.5.0",
