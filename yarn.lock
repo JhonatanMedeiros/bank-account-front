@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@angular-devkit/architect@0.803.2":
-  version "0.803.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.803.2.tgz#493813fed3c493d77e974c9e2dadf18e153c5cd8"
-  integrity sha512-1HFuZzMOFhVmbfoNwbYDLU3hhYMFmtB0eve/dB4KEvCFq6AEoFPVc5xt4tWpeN41wISfiCgxf5kHE3y07g0Yag==
+"@angular-devkit/architect@0.803.12":
+  version "0.803.12"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.803.12.tgz#0dac8d648ab6cd7f6aeb2dd6a0f919c9b5cb7c5f"
+  integrity sha512-BUYnXz0btv0kJ4xfQOGd8yMaNkgv8PPyZl0EfuH5LJ0OC94gNrPuLvKQC14aIan19T8Z36R6sErPl7umLgWJDQ==
   dependencies:
-    "@angular-devkit/core" "8.3.2"
+    "@angular-devkit/core" "8.3.12"
     rxjs "6.4.0"
 
 "@angular-devkit/architect@0.803.3":
@@ -117,10 +117,10 @@
     rxjs "6.4.0"
     webpack-merge "4.2.1"
 
-"@angular-devkit/core@8.3.2":
-  version "8.3.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-8.3.2.tgz#0e570f1fbb8888befc100f9a95eb6c63fd70594a"
-  integrity sha512-jFrBGPJBhy4D4foH9YHDrlbqGmb+ZivTKtHnR4yV241VUd3W53+KABrvPyHeS5xk/aHTRsm76rx6l+UREEEUkw==
+"@angular-devkit/core@8.3.12", "@angular-devkit/core@^8.3.6":
+  version "8.3.12"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-8.3.12.tgz#0b6303c2a810d9212d2cc4fa7f9e75f03025b63a"
+  integrity sha512-zqhhpdy4jfanxSUssTxkZAUIfpQV9G/CG+dvdqvBeQK0nppcH8a+8pIB91v8KjIbGErH1y3YXiYjAIsWwJd7RQ==
   dependencies:
     ajv "6.10.2"
     fast-json-stable-stringify "2.0.0"
@@ -139,7 +139,7 @@
     rxjs "6.4.0"
     source-map "0.7.3"
 
-"@angular-devkit/core@8.3.9", "@angular-devkit/core@^8.3.6":
+"@angular-devkit/core@8.3.9":
   version "8.3.9"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-8.3.9.tgz#72093bdbef278077f15f66423e2abc6bd2104d0a"
   integrity sha512-LYNdY8UpcEGaqWq0smPhSAiz+Oq1gv4j1LGLLyY1d2CJpf4czIuI8SkTHtmGMjpKy8ss/Vk1mHwRjBrWB0dUag==
@@ -150,12 +150,12 @@
     rxjs "6.4.0"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@8.3.2", "@angular-devkit/schematics@^8.2.2":
-  version "8.3.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.3.2.tgz#5aa4c014537b2a1fc8e234cef98cc683a2852bf2"
-  integrity sha512-WwiHtDeW7+Gw5pukdjyuwQ+Ino7AFnoKUqqYrsTwPnNky+p8JVT4tY6jTxwenOLOVsLSDz5oVn9jk5u70HLX4Q==
+"@angular-devkit/schematics@8.3.12", "@angular-devkit/schematics@^8.2.2":
+  version "8.3.12"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.3.12.tgz#a2941ddb7ec9ebde05d0d68c53e724976c27e137"
+  integrity sha512-IFmEFeKb4iGcPNwU2Gxzl73tePfUSBXWQmrbrQnOiGz3SlwyeuRCdWeP7YjtMbi8wXVm05/TvVSda5sUtTeAhA==
   dependencies:
-    "@angular-devkit/core" "8.3.2"
+    "@angular-devkit/core" "8.3.12"
     rxjs "6.4.0"
 
 "@angular/animations@~8.1.2":
@@ -165,22 +165,23 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/cli@^8.3.2":
-  version "8.3.2"
-  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-8.3.2.tgz#39325ad2b4b294ff9c5cfbed8892c1533d1cae43"
-  integrity sha512-NFL/QG+u607kQigubTj6Mlv289/6AvBooqkesBGta/Axaqgz3kPqJbz8YJs51mrHpa9rmx0IIncIMeKjHa7vTw==
+"@angular/cli@^8.3.12":
+  version "8.3.12"
+  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-8.3.12.tgz#d88bd729df5879452aaf6eec131153ecec20b39f"
+  integrity sha512-ZPo6HqQ89GqJi7VzB3yJVaasbXKYPKnziLrOySl3x3y7/1syEmbI5BiXyBNVFAdNs5TmpN/JJY+NS/ERF8HqtA==
   dependencies:
-    "@angular-devkit/architect" "0.803.2"
-    "@angular-devkit/core" "8.3.2"
-    "@angular-devkit/schematics" "8.3.2"
-    "@schematics/angular" "8.3.2"
-    "@schematics/update" "0.803.2"
+    "@angular-devkit/architect" "0.803.12"
+    "@angular-devkit/core" "8.3.12"
+    "@angular-devkit/schematics" "8.3.12"
+    "@schematics/angular" "8.3.12"
+    "@schematics/update" "0.803.12"
     "@yarnpkg/lockfile" "1.1.0"
     ansi-colors "4.1.1"
     debug "^4.1.1"
     ini "1.3.5"
     inquirer "6.5.1"
     npm-package-arg "6.1.0"
+    npm-pick-manifest "3.0.2"
     open "6.4.0"
     pacote "9.5.5"
     read-package-tree "5.3.1"
@@ -911,21 +912,21 @@
     tree-kill "1.2.1"
     webpack-sources "1.4.3"
 
-"@schematics/angular@8.3.2":
-  version "8.3.2"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-8.3.2.tgz#8d724b8450a1cbf02b5a7172e1cb46f75d62c686"
-  integrity sha512-kDT5lhr488NpqS4OKn8B9VUwl5AUNqRkLLqWgNHvxQcV1OtLhVJVw4ih1vhrH7wlUd39EwnRqtBX+53cg2PDmA==
+"@schematics/angular@8.3.12":
+  version "8.3.12"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-8.3.12.tgz#3f31d668bc694773c8fd9a1b5efde0c81d86ae28"
+  integrity sha512-KQbc/UrNhlxgBVUSq2HwnM+roBjWh7DyAZ9Y2ozqpgvDVzQnROOus9o48fm7FiHj4Rwfe+JSW9GeTEF2eE1P1w==
   dependencies:
-    "@angular-devkit/core" "8.3.2"
-    "@angular-devkit/schematics" "8.3.2"
+    "@angular-devkit/core" "8.3.12"
+    "@angular-devkit/schematics" "8.3.12"
 
-"@schematics/update@0.803.2":
-  version "0.803.2"
-  resolved "https://registry.yarnpkg.com/@schematics/update/-/update-0.803.2.tgz#74b39bd25ec01f1b4f45e2602e2cb4ddad9efa9c"
-  integrity sha512-UX01kuGEXMEnV19Dd7/lNzFnokZ05an9o0yEoRp50e7HH2mUOCPcxlnwGOq1obUJdyXkvItNrwWsIp2krXt4wQ==
+"@schematics/update@0.803.12":
+  version "0.803.12"
+  resolved "https://registry.yarnpkg.com/@schematics/update/-/update-0.803.12.tgz#9a8fe0e06bde39a5cfa045fb5d3eb1672bb06062"
+  integrity sha512-YoCJL4520+Wyt+F7/xCoLC7IIUaLLZUSIh+BikqC56h/YtFaEQoSL9vcolMuhs30KUG72lJsgpzBhQkWO77uNQ==
   dependencies:
-    "@angular-devkit/core" "8.3.2"
-    "@angular-devkit/schematics" "8.3.2"
+    "@angular-devkit/core" "8.3.12"
+    "@angular-devkit/schematics" "8.3.12"
     "@yarnpkg/lockfile" "1.1.0"
     ini "1.3.5"
     pacote "9.5.5"
@@ -5205,6 +5206,15 @@ npm-packlist@^1.1.12, npm-packlist@^1.1.6:
   dependencies:
     ignore-walk "^3.0.1"
     npm-bundled "^1.0.1"
+
+npm-pick-manifest@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/npm-pick-manifest/-/npm-pick-manifest-3.0.2.tgz#f4d9e5fd4be2153e5f4e5f9b7be8dc419a99abb7"
+  integrity sha512-wNprTNg+X5nf+tDi+hbjdHhM4bX+mKqv6XmPh7B5eG+QY9VARfQPfCEH013H5GqfNj6ee8Ij2fg8yk0mzps1Vw==
+  dependencies:
+    figgy-pudding "^3.5.1"
+    npm-package-arg "^6.0.0"
+    semver "^5.4.1"
 
 npm-pick-manifest@^2.2.3:
   version "2.2.3"
