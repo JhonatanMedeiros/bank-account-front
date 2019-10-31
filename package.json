@@ -43,7 +43,7 @@
     "@angular-devkit/build-ng-packagr": "^0.803.12",
     "@angular-devkit/core": "^8.3.15",
     "@angular-devkit/schematics": "^8.2.2",
-    "@angular/cli": "^8.3.2",
+    "@angular/cli": "^8.3.16",
     "@angular/compiler-cli": "^8.1.2",
     "@angular/language-service": "^8.2.12",
     "@fortawesome/fontawesome-free": "^5.11.2",
